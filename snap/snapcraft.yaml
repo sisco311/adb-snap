@@ -2,15 +2,19 @@ name: adb
 
 base: core18
 
-version: '0.1'
+version: '1.0.41'
 license: Apache-2.0
 
 summary: Unofficial snap for Android Debug Bridge (adb)
 description: |
   Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device.
 
-grade: devel
+grade: stable
 confinement: strict
+
+architectures:
+- build-on: i386
+- build-on: amd64
 
 apps:
   adb:
@@ -38,8 +42,4 @@ slots:
     read:
       - $SNAP/usr/bin
 
-    
-#plugs:
-#  adb-support:
-#  network:
 
