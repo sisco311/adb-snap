@@ -23,7 +23,7 @@ apps:
 parts:
   adb:
     plugin: dump
-    source: https://dl.google.com/android/repository/platform-tools_r28.0.3-linux.zip
+    source: https://dl.google.com/android/repository/platform-tools_r28.0.2-linux.zip
     organize:
       platform-tools/adb: usr/bin/
       platform-tools/NOTICE.txt: usr/share/doc/adb/
