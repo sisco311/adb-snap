@@ -37,5 +37,3 @@ slots:
     content: executables
     read:
       - $SNAP/usr/bin
-
-
