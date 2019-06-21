@@ -2,7 +2,7 @@ name: adb
 
 base: core18
 
-version: '1.0.41'
+version: '1.0.39'
 license: Apache-2.0
 
 summary: Unofficial snap for Android Debug Bridge (adb)
@@ -23,7 +23,7 @@ apps:
 parts:
   adb:
     plugin: dump
-    source: https://dl.google.com/android/repository/platform-tools_r28.0.3-linux.zip
+    source: https://dl.google.com/android/repository/platform-tools_r27.0.1-linux.zip
     organize:
       platform-tools/adb: usr/bin/
       platform-tools/NOTICE.txt: usr/share/doc/adb/
